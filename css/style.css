@@ -1,0 +1,62 @@
+ html, body, .container-table {
+    height: 100%;
+
+}
+.container-table {
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.text-center {
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 80px;
+	font-size: 5rem;
+	text-size-adjust: auto;
+}
+
+
+
+header {
+  padding: 20px 0;
+  float: left;
+
+}
+
+
+.col-sm-3{
+	margin-left: 20px;
+	font-size: 1.5rem;
+	font-family: 'Nunito', sans-serif;
+	color: black;
+}
+
+#sign{
+	color: black;
+	text-decoration: none;
+}
+
+#sign:hover{
+	color: #f9ad41;
+	text-decoration: none;
+}
+
+
+
+#login{
+	color: #f9ad41;
+	text-decoration: none;
+}
+
+#login:hover{
+	color: black
+	
+}
+
+#account{
+	font-family: 'Nunito', sans-serif;
+
+}
