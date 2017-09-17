@@ -141,6 +141,13 @@ font-family: 'Nunito', sans-serif;
 
 
 /*  M A P  */
+#sarah{
+
+
+  text-align: center;
+}
+
+
 .mapbody{  
   /*grid*/
 background-color: #efeeee;
@@ -356,6 +363,9 @@ section{
         width: 160px;
         text-align: center;
         background-color: #eee;
+        font-family: arial;
+        font-size:14px;
+        letter-spacing: 3px;
     }
     .navbar>.container .navbar-brand-centered, 
     .navbar>.container-fluid .navbar-brand-centered {
@@ -539,8 +549,157 @@ font-size: 1.5em !important;
   transform: translateY(4px);
 }
 
+#logout{
+    font-size:1.3em;
+font-family: 'Nunito', sans-serif;
+  color:black;
+
+}
+#logout:hover{
+  color:orange;
+
+}
+
+/* Popup container */
+#popup {
+  margin:50px;
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+
+
+         width: 30px;
+      height: 30px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      background: white;
+      border-style: solid;
+      border-width: 2px;
+      
+}
+#rachel {
+  margin:10%;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+
+
+         width: 30px;
+      height: 30px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      background: white;
+      border-style: solid;
+      border-width: 2px;}
+
+
+#sarah {
+  margin:20%;
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+
+
+         width: 30px;
+      height: 30px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      background: #69CDFF;
+      border-style: solid;
+      border-width: 2px;
+      
+}
+
+#kerryn {
+float:right;
+margin-left: 30%;
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+
+
+         width: 30px;
+      height: 30px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      background: white;
+      border-style: solid;
+      border-width: 2px;
+      
+}
+#stacey {
+
+margin-top: 40%;
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+
+
+         width: 30px;
+      height: 30px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      background: white;
+      border-style: solid;
+      border-width: 2px;
+      
+}
+#jordan {
+
+margin-left: 60%;
+margin-top: 30%;
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+
+
+         width: 30px;
+      height: 30px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      background: white;
+      border-style: solid;
+      border-width: 2px;
+      
+}
+#harin {
+
+margin-bottom:60%;
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+
+
+         width: 30px;
+      height: 30px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      background: white;
+      border-style: solid;
+      border-width: 2px;
+      
+}
 
 
 
+h4.modal-title{
+  text-align: center;
+}
 
+.names{
+  font-size: 20px;
+  font-family: arial;
+  letter-spacing: 5px;
+}
 
+#user{
+  position:absolute;
+  margin-left: 30%;
+}
