@@ -3,39 +3,84 @@
 <html>
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Name Me</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-	<!--<script src="jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>-->
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <title>Name Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link rel="icon" href="img/Untitled-3.ico">
 </head>
 
 <body>
 
-<header class = "container">
-	<div class ="row">
-<nav class="col-sm-3">
-	
-	<p><a href= "account.html" id= "sign">SIGN UP</a></p>
-</nav>
 
-	</div>
+  <button data-toggle="modal" data-target="#myModal"><span>Log In</span></button>
 
-
-
-</header>
-   
-
-
-
-<div class="container container-table">
-    <div class="row vertical-center-row">
-        <h1 class="text-center col-md-4 col-md-offset-4">NAME:ME</h1>
+ <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">N A M E : M E</h4>
+        </div>
+        <div class="modal-body">
+        <br>
+            <p id="loginto">LOGIN TO YOUR ACCOUNT</p><br>
+          <form>
+          <input type="text" name="user" placeholder="Username">
+          <input type="password" name="pass" placeholder="Password">
+          <a href="profile.html" class="button">Login</a>
+         
+        
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
     </div>
+  </div>
+
+
+<div class="jumbotron vertical-center">
+<div class="container">
+  <div class="jumbotron">
+
+  	<h1><center>N A M E : M E</center></h1>
+  	<br><br>
+     
+    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+    <br><br><br>
+
+
+   
+     <center><a href="account.html" class="button" id="register">Register</a></center>
+  </div>
+   
 </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </body>

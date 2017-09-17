@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+
+<html>
+
+ <head>
+  <title>Profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+   <link rel="icon" href="img/Untitled-3.ico">
+</head>
+
+<body>
+ <nav class="navbar navbar-default" role="navigation">
+          <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		     <a href="index.html"> <div class="navbar-brand navbar-brand-centered">N A M E : M E</div></a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+		      <ul class="nav navbar-nav">
+		        <li><a href="profile.html">profile</a></li>
+		        <li><a href="#">Link</a></li>
+		        <li><a href="#">Link</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Link</a></li>
+		        <li><a href="#">Link</a></li>
+		        <li><a href="#">Link</a></li>		        
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+<div class="jumbotron">
+ <h1 id="profile">PROFILE</h1> 
+
+</div>
+
+
+
+<div class= "jumbotron"">
+
+
+
+<div class= "jumbotron"">
+        
+       <div class="container-fluid">
+                     <div class="col-lg-3">
+                     
+
+                     <button alt="User Pic" id="profilepic" type="button" class="btn btn-warning btn-sm">Change</button>
+                      <img src="img/icon.png" class="img-responsive"> </div>
+                
+                <input id="profileupload" class="hidden" type="file">
+
+              
+           
+ 
+              <h2>NAME : SARAH HOSFORD</h2> 
+              <hr>
+              <br>
+              <p class="username">USERNAME: s.hosford</p>
+              <br>
+               <p class="username">ICON COLOUR: </p>
+              
+
+               <div class="apDiv1"></div>
+
+
+ 
+   
+     <button class="red" id="btn-1"></button>
+      <button class="blue" id="btn-2"></button>
+      <button class="yellow" id="btn-3"></button>
+      <button class="orange" id="btn-4"></button>
+      <button class="white" id="btn-5"></button>
+
+
+<br><br><br><br><br><br><br><br><br><br><br>
+ <center><a href="map.html"><button class="button" id="scan">SCAN</button></a></center>
+
+</div>
+</div>
+
+   
+             </div>
+</div>
+
+
+
+
+
+</body>
+
+<script>
+$(document).ready(function() { 
+$("#btn-1").click(function() {
+$(".apDiv1").css({"background-color" :"#F23F43"});
+});
+$("#btn-2").click(function() {
+$(".apDiv1").css({"background-color" :"#69CDFF"});
+});
+$("#btn-3").click(function() {
+$(".apDiv1").css({"background-color" :"#FFE96D"});
+});
+$("#btn-4").click(function() {
+$(".apDiv1").css({"background-color" :"#FA902D"});
+});
+$("#btn-5").click(function() {
+$(".apDiv1").css({"background-color" :"white"});
+});
+});   
+$(function() {
+    $('#profilepic').on('click', function() {
+    $('#profileupload').click();
+    });
+});  
+</script>
+
+
+
+
+</html>
+

@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Name Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link rel="icon" href="img/Untitled-3.ico">
+
+
+  <style>
+  .apDiv1 {
+  position:absolute;
+  left:9px;
+  top:110px;
+  width:44px;
+  height:44px;
+  background-color:#666666;
+  z-index:1;
+}
+
+
+
+
+.red {
+  position:relative;
+  float:right;
+  margin-right:10px;
+  margin-top:10px;
+  width:21px;
+  height:19px;
+  background-color:red;
+  z-index:4;
+}
+
+.blue {
+  position:relative;
+  float:right;
+  margin-right:10px;
+  margin-top:10px;
+  width:21px;
+  height:19px;
+  background-color:blue;
+  z-index:4;
+}
+
+.yellow {
+  position:relative;
+  float:right;
+  margin-right:10px;
+  margin-top:10px;
+  width:21px;
+  height:19px;
+  background-color:yellow;
+  z-index:4;
+}
+
+  </style>
+ </head>
+
+
+
+ <body>
+ <div class="container">
+  <div class="row">
+      
+  
+    <div class="apDiv1"></div>
+    <div class="apDiv12"></div>
+
+    <div class="apDiv2">
+       <button class="red" id="btn-1"></button>
+     <button class="blue" id="btn-2"></button>
+      <button class="yellow" id="btn-3"></button>
+      <button class="yellow" id="btn-3"></button>
+</div>
+  </div>
+</div>
+
+</body>
+<script>
+$(document).ready(function() { 
+$("#btn-1").click(function() {
+$(".apDiv1, .apDiv12").css({"background-color" :"#FFC1E4"});
+});
+$("#btn-2").click(function() {
+$(".apDiv1, .apDiv12").css({"background-color" :"blue"});
+});
+$("#btn-3").click(function() {
+$(".apDiv1, .apDiv12").css({"background-color" :"yellow"});
+});
+});
+</script>
+
+</html>

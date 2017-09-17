@@ -1,21 +1,64 @@
- html, body, .container-table {
-    height: 100%;
-
+ 
+/*  H O M E  P A G E  */
+.button {
+    background-color: #f9ad41;
+    border: none;
+    color: black;
+    padding: 2px 10px;
+    text-align: center;
+    text-decoration: none !important;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+    .button:hover {
+    background-color: #DE9739;
+    color: black;
 }
-.container-table {
-    display: table;
+button{
+  background-color: white;
+  border:none;
+  margin-left: 10px;
+  margin-top: 10px;
 }
-.vertical-center-row {
-    display: table-cell;
-    vertical-align: middle;
+button:focus {outline:0;}
+
+span{
+font-size:1.3em;
+font-family: 'Nunito', sans-serif;
+}
+
+span:hover{
+  color:orange;
 }
 
 
-.text-center {
+.jumbotron{
+	background-color: white !important;
+}
+
+
+
+.jumbotron h1{
+	letter-spacing: 40px !important;
 	font-family: 'Oswald', sans-serif;
-	letter-spacing: 80px;
-	font-size: 5rem;
-	text-size-adjust: auto;
+}
+
+.vertical-center {
+  min-height: 95%; 
+  min-height: 95vh; 
+
+  display: flex;
+  align-items: center;
+}
+
+#log{
+	color:black;
+}
+
+#log:hover{
+	color:orange;
 }
 
 
@@ -60,3 +103,444 @@ header {
 	font-family: 'Nunito', sans-serif;
 
 }
+
+
+
+.modal-content {
+  
+margin-top: 40%;
+
+}
+
+.modal-title{
+  letter-spacing: 20px;
+  font-family: arial !important;
+}
+
+#myModal{
+  text-align: center;
+}
+
+#loginto{
+letter-spacing: 3px;
+font-family: 'Nunito', sans-serif;
+}
+
+#register{
+  font-family: 'Nunito', sans-serif;
+  box-shadow: 0 1px #999;
+}
+
+#register:active {
+
+  box-shadow: 0 1px #666;
+  transform: translateY(1px);
+}
+
+
+
+
+/*  M A P  */
+.mapbody{  
+  /*grid*/
+background-color: #efeeee;
+background-size: 150px 150px;
+background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+
+  #circle {
+      width: 30px;
+      height: 30px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      background: white;
+      border-style: solid;
+      border-width: 2px;
+      margin-left: 39%;
+    }
+
+    p{
+      text-align: center;
+vertical-align: middle;
+line-height: 30px; 
+font-family: 'Nunito', sans-serif;
+
+    }
+
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none!important;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    letter-spacing: 5px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+   margin-top: -5%;
+    }
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#spinner-wrapper {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+ background-color: #efeeee;
+    background-size: 150px 150px;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+z-index: 999999;
+}
+
+#spinner {
+  width: 40px;
+  height: 40px;
+ position: absolute;
+top: 48%;
+left: 48%;
+  background-color: orange;
+
+  border-radius: 100%;  
+  -webkit-animation: sk-scaleout 3.0s infinite ease-in-out;
+  animation: sk-scaleout 3.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(30.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(3.0);
+    transform: scale(30.0);
+    opacity: 0;
+  }
+}
+
+/*  A C C O U N T  */
+
+
+
+.register-form{
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+
+.logbutton{    
+    height: 50px;
+    width: 200px;
+   
+    border-radius: 0px;
+    font-size: 18px;
+    color:white;
+ 
+    margin-bottom: 5px;
+}
+
+
+
+.register-form label{
+    color: black;
+    letter-spacing: 5px;
+    
+}
+.register-form input{
+    margin-bottom: 5px;
+    width: 500px;
+    height: 50px;
+    border-radius: 0px;
+}
+
+#registerbutton{
+  font-family: 'Nunito', sans-serif;
+  box-shadow: 0 1px #999;
+background-color: #f9ad41;
+  border:none;
+  margin-left: 108%;
+
+    border: none;
+    color: black;
+    padding: 10px 50px;
+    text-align: center;
+    letter-spacing: 10px;
+    text-decoration: none !important;
+    display: inline-block;
+    font-size: 15px;
+     font-weight: bold;
+    cursor: pointer;
+ 
+}
+
+#registerbutton:hover {
+    background-color: #DE9739;
+    color: black;}
+
+#registerbutton:active {
+
+  box-shadow: 0 1px #666;
+  transform: translateY(1px);
+}
+
+hr{
+  color: black !important;
+    border-width: 2px !important;
+}
+#createaccount{
+  font-family: arial;
+  font-size: 2em;
+  letter-spacing: 6px;
+  font-style: bold;
+  
+}
+
+section{
+   width: 500px;
+    height: 50px;
+    background
+}
+
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        background-color: #eee;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+}
+
+/*  P R O F I L E  */
+
+#profile{
+  margin-left: 5%;
+  background-color:#fff2b7;
+
+}
+
+h2{
+letter-spacing: 20px;
+text-align: center;
+
+font-family: 'Oswald', sans-serif;
+}
+
+.square {
+   width:100px;
+   height:100px;
+  
+   float:left;
+   border:1px #000 solid;
+    margin: 5px;
+}
+
+.col-lg-3{
+  position:relative;
+
+}
+
+div.col-lg-3{
+ margin-left: 4%;
+}
+
+button#profilepic.btn.btn-warning{
+  position:absolute;
+   font-family: 'Nunito', sans-serif;
+   letter-spacing: 2px;
+
+}
+
+.username{
+  text-align: right;
+font-size: 1.5em !important;
+  font-family: arial;
+  letter-spacing: 5px;
+  position:relative;
+  margin-right:25%;
+  }
+
+
+
+ .apDiv1 {
+  
+  
+  width:44px;
+  height:44px;
+  background-color:white;
+  border:solid;
+  z-index:4;
+  float:right;
+   position:relative;
+  margin-right:25%;
+}
+
+
+
+
+.red {
+ 
+  margin-right:1%;
+   width:21px;
+  height:19px;
+  background-color:#F23F43;
+  z-index:4;
+  float:right;
+   position:relative;
+}
+
+.red:active {
+
+  box-shadow: 0 1px #666;
+  transform: translateY(1px);
+}
+
+.blue {
+ 
+   float:right;
+   position:relative;
+ 
+  width:21px;
+  height:19px;
+  background-color:#69CDFF;
+  z-index:4;
+
+}
+
+.blue:active {
+
+  box-shadow: 0 1px #666;
+  transform: translateY(1px);
+}
+
+.yellow {
+  
+  float:right;
+   position:relative;
+    width:21px;
+  height:19px;
+  background-color:#FFE96D;
+  z-index:4;
+}
+.yellow:active {
+
+  box-shadow: 0 1px #666;
+  transform: translateY(1px);
+}
+
+.orange {
+  
+  float:right;
+   position:relative;
+    width:21px;
+  height:19px;
+  background-color:#FA902D;
+  z-index:4;
+}
+
+.orange:active {
+
+  box-shadow: 0 1px #666;
+  transform: translateY(1px);
+}
+.white {
+   float:right;
+   position:relative;
+  width:21px;
+  height:19px;
+  background-color:white;
+  z-index:4;
+  border:solid;
+  border-width: 1px;
+}
+.white:active {
+
+  box-shadow: 0 1px #666;
+  transform: translateY(1px);
+}
+
+#scan {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#FDDC5A;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 5px #999;
+  color:black;
+  letter-spacing: 3px;
+  
+
+
+}
+
+#scan:hover {background-color: #DBBF5D}
+
+#scan:active {
+  background-color: #DBBF5D;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+
+
